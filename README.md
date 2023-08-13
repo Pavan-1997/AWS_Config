@@ -51,5 +51,7 @@ We use AWS Config to detect compliant and non-compliant ec2 instances for the be
     
 10. Now follow Step 7. to Disable the detailed monitoring
 
+    ![CONFIG_DIS](https://github.com/Pavan-1997/AWS_Config/assets/32020205/541dd717-5ab8-42c6-b3fd-8216f7aa8e2c)
+
 
 11. Followed by Step 8.
