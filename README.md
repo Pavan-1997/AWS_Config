@@ -32,6 +32,10 @@ We use AWS Config to detect compliant and non-compliant ec2 instances for the be
 
 7. Now create an EC2 instance and under Monitoring tab -> Click on Manage detailed monitoring ->  Enable the detailed monitoring -> Click on Confirm
 
+![image](https://github.com/Pavan-1997/AWS_Config/assets/32020205/fc676276-50f6-4ef9-a598-c073eda95f7c)
+
+![CONFIG_EN](https://github.com/Pavan-1997/AWS_Config/assets/32020205/440de8fb-51e6-4b01-b055-26e1b6e78fd2)
+
 
 8. Now go to the AWS Config -> In the dashboard after few minutes you should see the Complaint resource(s) as 1 If not,
 
