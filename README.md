@@ -46,8 +46,9 @@ We use AWS Config to detect compliant and non-compliant ec2 instances for the be
     
     Now in the Resources in scope -> Select filter to All -> Click on refresh you should see the EC2 under compliance
 
-    
+      ![CONFIG_COMP](https://github.com/Pavan-1997/AWS_Config/assets/32020205/09455d24-c5a9-41ac-8c79-2be3457d736c)
 
+    
 10. Now follow Step 7. to Disable the detailed monitoring
 
 
