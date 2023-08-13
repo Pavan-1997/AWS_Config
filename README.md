@@ -16,7 +16,7 @@ We use AWS Config to detect compliant and non-compliant ec2 instances for the be
 
 5. Now go back to Step 1 Rules on the left pane -> Click on Add rule -> Click on Create custom Lambda rule -> Click on Next -> Give Name -> Give the ARN of Lambda from the above step
 
-In Evaluation mode -> Select trigger type as When configuration changes -> Select Resources -> Select Resource type - AWS EC2 Instance -> Click on Next -> Click on Save
+    In Evaluation mode -> Select trigger type as When configuration changes -> Select Resources -> Select Resource type - AWS EC2 Instance -> Click on Next -> Click on Save
 
 
 6. Now go to the Lambda function created -> Under Configuration, Click on Permissions on the left -> Open the Role > Now IAM gets opened, click on Add permissions -> Attach policies and add below
