@@ -32,8 +32,8 @@ AWSCloudTrail_FullAccess
 
 8. Now go to the AWS Config -> In the dashboard after few minutes you should see the Complaint resource(s) as 1 If not,
 
-Go to Rules on the left pane -> Click on the rule created -> Actions -> Click on Re-evaluate
-
-Now in the Resources in scope -> Select filter to All -> Click on refresh you should see the EC2 under complainence
+    Go to Rules on the left pane -> Click on the rule created -> Actions -> Click on Re-evaluate
+    
+    Now in the Resources in scope -> Select filter to All -> Click on refresh you should see the EC2 under complainence
 
    
