@@ -40,11 +40,15 @@ We use AWS Config to detect compliant and non-compliant ec2 instances for the be
 8. Now go to the AWS Config -> In the dashboard after few minutes you should see the Complaint resource(s) as 1 If not,
 
     Go to Rules on the left pane -> Click on the rule created -> Actions -> Click on Re-evaluate
+
+      ![CONFIG_REVAL](https://github.com/Pavan-1997/AWS_Config/assets/32020205/c0375159-c822-496e-b942-76cdd0acf061)
+
     
-    Now in the Resources in scope -> Select filter to All -> Click on refresh you should see the EC2 under complainence
+    Now in the Resources in scope -> Select filter to All -> Click on refresh you should see the EC2 under compliance
+
+    
+
+10. Now follow Step 7. to Disable the detailed monitoring
 
 
-9. Now follow Step 7. to Disable the detailed monitoring
-
-
-10. Followed by Step 8.
+11. Followed by Step 8.
