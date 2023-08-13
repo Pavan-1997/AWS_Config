@@ -19,12 +19,12 @@ We use AWS Config to detect compliant and non-compliant ec2 instances for the be
 In Evaluation mode -> Select trigger type as When configuration changes -> Select Resources -> Select Resource type - AWS EC2 Instance -> Click on Next -> Click on Save
 
 
-6. Now go to the Lambda funtion created -> Under Configuration , Click on Permissions on the left -> Open the Role > Now IAM gets opened, click on Add permissions -> Attach policies and add below
-
+6. Now go to the Lambda function created -> Under Configuration, Click on Permissions on the left -> Open the Role > Now IAM gets opened, click on Add permissions -> Attach policies and add below
+```
 CloudWatchFullAccess
 AmazonEC2FullAccess
 AWS_ConfigRole
 AWSCloudTrail_FullAccess
-
+```
 
 7. Now create an EC2 instance and open the 
