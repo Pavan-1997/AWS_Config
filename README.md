@@ -55,3 +55,5 @@ We use AWS Config to detect compliant and non-compliant ec2 instances for the be
 
 
 11. Followed by Step 8.
+
+    ![CONFIG_NON_COMP](https://github.com/Pavan-1997/AWS_Config/assets/32020205/0ea880e5-58ac-4f89-86d4-66e0e6d05f56)
