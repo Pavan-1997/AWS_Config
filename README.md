@@ -27,4 +27,13 @@ AWS_ConfigRole
 AWSCloudTrail_FullAccess
 ```
 
-7. Now create an EC2 instance and open the 
+7. Now create an EC2 instance and under Monitoring tab -> Click on Manage detailed monitoring ->  Enable the detailed monitoring -> Click on Confirm
+
+
+8. Now go to the AWS Config -> In the dashboard after few minutes you should see the Complaint resource(s) as 1 If not,
+
+Go to Rules on the left pane -> Click on the rule created -> Actions -> Click on Re-evaluate
+
+Now in the Resources in scope -> Select filter to All -> Click on refresh you should see the EC2 under complainence
+
+   
