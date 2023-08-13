@@ -20,12 +20,12 @@ We use AWS Config to detect compliant and non-compliant ec2 instances for the be
 
 
 6. Now go to the Lambda function created -> Under Configuration, Click on Permissions on the left -> Open the Role > Now IAM gets opened, click on Add permissions -> Attach policies and add below
-```
+ 
 CloudWatchFullAccess
 AmazonEC2FullAccess
 AWS_ConfigRole
 AWSCloudTrail_FullAccess
-```
+ 
 
 7. Now create an EC2 instance and under Monitoring tab -> Click on Manage detailed monitoring ->  Enable the detailed monitoring -> Click on Confirm
 
