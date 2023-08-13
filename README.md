@@ -8,15 +8,13 @@ We use AWS Config to detect compliant and non-compliant ec2 instances for the be
 - Compliant (EC2 Instance has Monitoring enabled)
 - Non-Compliant (EC2 Instance does not have Monitoring enabled)
   
-1.  Go to AWS Config from AWS Console
+1.  Go to AWS Config from AWS Management Console and Click on Get started
 
-2. Click on Get started
+2. Go with default values and click on Create
 
-3. Go with deafult values and click on Create
+3. Go to AWS Lambda from AWS Console -> Click on Create a function -> Give Runtime - Python 3.11 -> Click on Create function -> Give the python file in the repo - Click on Deploy 
 
-4. Go to AWS Lambda from AWS Console -> Click on Create a function -> Give Runtime - Python 3.11 -> Click on Create function -> Give the python file in the repo - Click on Deploy 
-
-5. Now go back to Step 2 Rules on the left pane -> Click on Add rule -> Click on Create custom Lambda rule -> Click on Next -> Give Name -> Give the ARN of Lambda from the above step
+5. Now go back to Step 1 Rules on the left pane -> Click on Add rule -> Click on Create custom Lambda rule -> Click on Next -> Give Name -> Give the ARN of Lambda from the above step
 
 In Evaluation mode -> Select trigger type as When configuration changes -> Select Resources -> Select Resource type - AWS EC2 Instance -> Click on Next -> Click on Save
 
