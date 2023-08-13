@@ -10,9 +10,12 @@ We use AWS Config to detect compliant and non-compliant ec2 instances for the be
   
 1.  Go to AWS Config from AWS Management Console and Click on Get started
 
+
 2. Go with default values and click on Create
 
+
 3. Go to AWS Lambda from AWS Console -> Click on Create a function -> Give Runtime - Python 3.11 -> Click on Create function -> Give the python file in the repo - Click on Deploy 
+
 
 5. Now go back to Step 1 Rules on the left pane -> Click on Add rule -> Click on Create custom Lambda rule -> Click on Next -> Give Name -> Give the ARN of Lambda from the above step
 
@@ -36,4 +39,8 @@ We use AWS Config to detect compliant and non-compliant ec2 instances for the be
     
     Now in the Resources in scope -> Select filter to All -> Click on refresh you should see the EC2 under complainence
 
-   
+
+9. Now follow Step 7. to Disable the detailed monitoring
+
+
+10. Followed by Step 8.
